@@ -1,2 +1,19 @@
 # AutoWebFishing
 To automate catching fish and buying bait in WEBFISHING
+
+IMPORTANT:
+Make sure you have python installed and run "pip install pyautogui opencv-python pillow" in your terminal.
+Make sure you edit the script with the file paths for the screenshots (this script works on image recognition).
+Make sure your rod is bound to 1 and the portable bait station phone to 5 for continuing to fish after you run out of bait.
+
+How it works:
+Start the script, then cast your line. The python script will take it from there!
+After casting your line with some bait, the script will wait until you hook a fish. After that, it will start reeling the fish in. The catch message will be clicked through, and then your line will be cast again without your input. If you run out of bait, the script will look through your inventory for different bait if available, or it will go ahead and call a portable bait station to sell your fish and buy new bait before continuing the fishing cycle.
+
+This script should work with any bait licenses you might have, if you do not have all the bait licenses. It works with any lure, including the Patient Lure. I have not included any code to click popups for the Challenge Lure.
+
+When you cast your line, you can reel back in to do something else without needing to start the script over. Just cast your line again!
+
+Disclaimer: This is the first thing I ever really wrote code for, aside from python practice problems, so it can definitely be optimized. But it works!
+
+Happy Fishing!
