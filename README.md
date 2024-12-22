@@ -5,6 +5,7 @@ IMPORTANT:
 Make sure you have python installed and run "pip install pyautogui opencv-python pillow" in your terminal.
 Make sure you edit the script with the file paths for the screenshots (this script works on image recognition).
 Make sure your rod is bound to 1 and the portable bait station phone to 5 for continuing to fish after you run out of bait.
+If you are encountering bugs, try running the game in full screen windowed mode since that seems to be very consistent for me.
 
 How it works:
 Start the script, then cast your line. The python script will take it from there!
